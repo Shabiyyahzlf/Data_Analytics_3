@@ -32,44 +32,44 @@ But When should we use either of the two? Let's understand this with the help of
 - Seaborn is considerably more organized and functional than Matlotlib and treats the entire dataset as a solitary unit
 - Seaborn has more inbuilt themes and is mainly used for statistical analysis
 **Import matplotlib and seaborn**
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/d48d9452-a975-4f3b-a1ae-2413e5be5e77" width="30%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/d48d9452-a975-4f3b-a1ae-2413e5be5e77" width="50%">
 </div>
 
 ### Using Matplotlib
 #### Creating Variables and Labels
 We are using random data points to represent the yield of grapes. 
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/f003175f-8b87-4aeb-9c64-c23dfd4e0122" width="50%"height="50%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/f003175f-8b87-4aeb-9c64-c23dfd4e0122" width="70%"height="70%">
 </div>
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/7ebd5703-985d-42fd-ad7a-993058050302" width="50%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/7ebd5703-985d-42fd-ad7a-993058050302" width="70%">
 </div>
 To plot multiple datasets on the same graph, just use the plt.plot function once for each dataset. Let's use this to compare the yields of grapes vs kiwis on the same graph. We can add a legend which tells us what each line in our graph means. To understand what we are plotting, we can add a title to our graph.
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/8a8f297c-c635-47f9-b6a2-6e4136e76b9d" width="50%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/8a8f297c-c635-47f9-b6a2-6e4136e76b9d" width="70%">
 </div>
 
 ### Using Seaborn
 An easy way to make your charts look beautiful is to use some default styles from the Seaborn library. These can be applied globally using the sns.set_style function.
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/ed1787d5-bc61-4e46-bb7e-0016e9f6dee6" width="30%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/ed1787d5-bc61-4e46-bb7e-0016e9f6dee6" width="50%">
 </div>
 We still use the same command from the matplotlib previously, but we will see the difference of adding the sns.set_style command.
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/102d6c89-1549-459f-abd0-6deb54331505" width="50%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/102d6c89-1549-459f-abd0-6deb54331505" width="70%">
 </div>
 We can also use darkgrid option to change the baground color to a darker shade
 <div align="center">
-  <img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/159063a5-49bf-4908-a968-3939ac5d9c97" width="50%">
+  <img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/159063a5-49bf-4908-a968-3939ac5d9c97" width="70%">
 </div>
 
 #### Define Years, Grapes, and Kiwis into a New Variables
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/84d46468-24fc-4616-bd31-b209e3005ba3" width="25%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/84d46468-24fc-4616-bd31-b209e3005ba3" width="45%">
 </div>
 Then we will define years, grapes, and kiwis variables in to a new variable
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/d22eeaf5-0492-4cbc-b19b-0a7d5d50d6f1" width="50%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/d22eeaf5-0492-4cbc-b19b-0a7d5d50d6f1" width="70%">
 </div>
 
 Let's see our newly created dataframe below
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/6372247e-7472-41eb-8811-bea0ec0a13e0" width="20%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/6372247e-7472-41eb-8811-bea0ec0a13e0" width="50%">
 </div>
 Then we can plot them by using seaborn as below:
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/d4c4f8c1-f949-4499-a66f-71062d2e3361" width="50%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/d4c4f8c1-f949-4499-a66f-71062d2e3361" width="70%">
 </div>
 
 ## Bar Graph
@@ -77,11 +77,11 @@ When you have categorical data, you can represent it with a bar graph. A bar gra
 category on the x-axis. Bar graphs use bars with varying heights to show the data which belongs to a specific category.
 ### Using Matplotlib
 #### Bar Chart
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/d103d7e5-3572-4c3c-862b-9ba13fb84d83" width="50%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/d103d7e5-3572-4c3c-862b-9ba13fb84d83" width="70%">
 </div>
 
 #### Stacked Bar Chart
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/01a8969d-59c0-4590-a6a4-96224efbe7a8" width="50%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/01a8969d-59c0-4590-a6a4-96224efbe7a8" width="70%">
 </div>
 
 ### Using Seaborn
@@ -92,7 +92,7 @@ Let's use the tips dataset in Seaborn next. The dataset consisdt of:
 4. Tips given by customers visiting the restaurant for a week
 
 This **Tips Dataset** is a dataset provided by seaborn library, so you can directly load the dataset.
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/33a65cab-16c7-4623-a188-be21e9edec07" width="40%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/33a65cab-16c7-4623-a188-be21e9edec07" width="60%">
 </div>
 NLP stands for Natural Language Processing. It is a branch of artificial intelligence (AI) that focuses on the interaction between computers and humans through natural language. 
 
@@ -104,31 +104,31 @@ NLP stands for Natural Language Processing. It is a branch of artificial intelli
 
 #### Bar Chart
 The bar plot visualizes the scores achieved by different Natural Language Processing (NLP) models. This visualization allows for a quick comparison of the performance of different NLP models across the given dataset.
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/9f28f061-8f03-4c9e-ac93-b3a1fcba9850" width="50%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/9f28f061-8f03-4c9e-ac93-b3a1fcba9850" width="70%">
 </div>
 
 #### Bar Charts Vertical (pivot)
 The bar plot compares the scores achieved by different NLP models across specific years. By visualizing the average scores of each model over time, we can observe the performance trends of these models across different years. This comparison helps us understand how the effectiveness of each NLP model evolves over time, providing insights into advancements or changes in NLP techniques and technologies.
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/4cecfdf7-d2c4-40b3-87b1-2107be4990a9" width="50%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/4cecfdf7-d2c4-40b3-87b1-2107be4990a9" width="70%">
 </div>
 
 #### Bar Charts Horizontal (pivot)
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/fdda160e-edaa-45fd-ad3d-4d2786cd6d80" width="50%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/fdda160e-edaa-45fd-ad3d-4d2786cd6d80" width="70%">
 </div>
 
 ### Using Matplotlib
 we are going to plot a histogram from the 'Passengers' column
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/142e09ea-e0cd-4b6b-a141-3c16d34b2c2d" width="50%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/142e09ea-e0cd-4b6b-a141-3c16d34b2c2d" width="70%">
 </div>
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/b118efb9-4a22-43db-9a37-7d03606f38b6" width="50%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/b118efb9-4a22-43db-9a37-7d03606f38b6" width="70%">
 </div>
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/5ad15c8e-9455-4ad4-ba42-9ef0171841d6" width="50%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/5ad15c8e-9455-4ad4-ba42-9ef0171841d6" width="70%">
 </div>
 we can control the number or size of bins too
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/49f4509a-4fe6-48eb-80b7-91d49c2282db" width="50%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/49f4509a-4fe6-48eb-80b7-91d49c2282db" width="70%">
 </div>
 we can change the number and size of bins using numpy too
-<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/a945c499-56c5-40d0-8317-76e7a9da28f3" width="50%">
+<div align="center"><img src="https://github.com/Shabiyyahzlf/Data_Analytics_3/assets/89763971/a945c499-56c5-40d0-8317-76e7a9da28f3" width="70%">
 </div>
 
 # Crisp DM
